@@ -1,4 +1,4 @@
-# 📘 Nome do Projeto
+# 📘 Trainee-2025.2
 
 <!--
 Breve descrição do projeto, incluindo o objetivo, nome do cliente e o setor envolvido.
@@ -14,9 +14,16 @@ Acesse a solução por meio deste [🔗 Link](https://www.nasa.gov/)
 
 A documentação completa do projeto pode ser acessada através do link abaixo:  
 
-**[Template de Documentação](https://intelijr.github.io/template-repo/)**
+**[Template de Documentação](https://intelijr.github.io/Trainee-2025.2/)**
 
 > A documentação é mantida utilizando o [Docusaurus](https://docusaurus.io/). Para informações sobre como configurar e manter a documentação, consulte o [guia de configuração](./docs/README.md).
+
+<br />
+
+<div align="center">
+  ACESSE AS INFORMAÇÕES DO DEAFIO EM [./desafio.md](./desafio.md)
+</div>
+
 
 ---
 
