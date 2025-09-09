@@ -9,22 +9,22 @@ sidebar_position: 2
 ## 🗓 Informações Gerais
 
 - **Nome do Projeto:** 
-<!-- Exemplo: Sistema de Gestão de Reservas para Biblioteca -->
+Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Cliente:** 
-<!-- Exemplo: Faculdade XYZ - Departamento de Biblioteconomia -->
+Joãozinho Tatuagens (tatuador freelancer)
 
 - **Responsável da Visão de Produto (PO):**
 <!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente -->
 
 - **Duração Total Estimada:** 
-<!-- Exemplo: 10 semanas -->
+10 semanas
 
 - **Período na Etapa de Design (estimado):** 
-<!-- Exemplo: 2 semanas -->
+2 semanas
 
 - **Período na Etapa de Desenvolvimento (estimado):** 
-<!-- Exemplo: 8 semanas -->
+8 semanas
 
 ---
 
@@ -56,13 +56,17 @@ sidebar_position: 2
 <!-- Explique brevemente o que é o projeto, sua motivação, e o problema que resolve. -->
 
 **Descrição:**
-<!-- Exemplo: Desenvolver um sistema web para gerenciar as reservas de salas e equipamentos da biblioteca da Faculdade XYZ. -->
+Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione como cartão de visitas digital e plataforma de gestão. O sistema terá um portfólio organizado por estilos de tatuagem, um módulo de agendamento de sessões com fluxo de aprovação pelo próprio tatuador, além de páginas informativas (FAQ, contato e localização).
 
 **Objetivos:**
-<!-- Exemplo: Digitalizar o processo de reservas, aumentar o controle de disponibilidade, facilitar a comunicação com os usuários. -->
+- Profissionalizar a presença online do cliente, oferecendo um site organizado e atrativo.
+- Facilitar a divulgação do portfólio, permitindo a separação por estilos de tatuagem.
+- Automatizar e organizar o processo de solicitação de horários, reduzindo o tempo gasto em conversas informais no WhatsApp e Instagram.
+- Criar uma área administrativa intuitiva para o tatuador gerenciar portfólio, agenda e dúvidas frequentes sem necessidade de conhecimentos técnicos.
 
 **Público-Alvo:**
-<!-- Exemplo: Alunos e funcionários da biblioteca. -->
+- Clientes em potencial interessados em conhecer os trabalhos do tatuador e solicitar agendamento de sessões.
+- O próprio tatuador (administrador do sistema), que utilizará a plataforma para gerenciar seu portfólio, agenda e informações de atendimento.
 
 ## 👤 Personas
 
@@ -76,11 +80,14 @@ Exemplos:
 -->
 
 **Principais Funcionalidades:**
-<!-- Exemplo:
-- Cadastro e login de usuários
-- Reserva de equipamentos
-- Notificações por e-mail
-- Painel administrativo -->
+- **Portfólio de trabalhos:** Exibição de fotos organizadas por estilo (preto e branco, colorido, fineline etc.).  
+- **Galerias categorizadas:** Possibilidade de o cliente compartilhar diretamente links de estilos específicos.  
+- **Sistema de agendamento:** Calendário com visualização de horários livres e formulário de solicitação (nome, contato, descrição da tattoo e upload de referência).  
+- **Área administrativa:** Painel exclusivo para o tatuador aprovar ou recusar pedidos de agendamento, gerenciar agenda e atualizar portfólio.  
+- **Notificações:** Envio de aviso por e-mail (ou outra forma definida) para o tatuador sobre novas solicitações.  
+- **FAQ (Perguntas Frequentes):** Página com respostas às dúvidas comuns sobre cuidados, pagamentos e regras.  
+- **Página de contato e localização:** Endereço do estúdio, mapa integrado e canais de comunicação.  
+- **Gerenciamento simples de conteúdo:** Interface intuitiva para o tatuador adicionar, remover ou editar fotos e informações sem precisar de conhecimento técnico.  
 
 ---
 
