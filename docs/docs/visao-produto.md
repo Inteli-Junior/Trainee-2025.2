@@ -250,11 +250,11 @@ RF04 - O sistema deve enviar um e-mail automático de confirmação após uma re
 ## 📱 Responsividade
 
 **O projeto será responsivo?**
-- [ X ] Sim
+- [X] Sim
 - [ ] Não
 
 **Se sim, até qual ponto?**
-- [ X ] Mobile-first
+- [X] Mobile-first
 - [ ] Adaptável para tablets
 - [ ] Desktops Grandes e notebooks menores
 - [ ] Totalmente responsivo (desktop, tablet, mobile)
