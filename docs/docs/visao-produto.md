@@ -15,7 +15,7 @@ Tattoo Studio — Sistema de Portfólio e Agendamento
 Joãozinho Tatuagens (tatuador freelancer)
 
 - **Responsável da Visão de Produto (PO):**
-<!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente -->
+<!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente      -->
 
 - **Duração Total Estimada:** 
 10 semanas
