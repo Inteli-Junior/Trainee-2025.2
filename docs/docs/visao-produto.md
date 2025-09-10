@@ -15,7 +15,7 @@ Tattoo Studio — Sistema de Portfólio e Agendamento
 Joãozinho Tatuagens (tatuador freelancer)
 
 - **Responsável da Visão de Produto (PO):**
-<!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente      -->
+<!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente -->
 
 - **Duração Total Estimada:** 
 10 semanas
@@ -70,61 +70,45 @@ Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione co
 
 ## 👤 Personas
 
-<!-- 
-Liste aqui as personas envolvidas no uso da aplicação. Não é necessário criar nomes fictícios ou descrições elaboradas — o objetivo é identificar os tipos de usuários que interagem com o sistema, suas funções ou necessidades principais.
 
-Exemplos:
-- Aluno: acessa o sistema para reservar salas e consultar reservas.
-- Funcionário da Biblioteca: administra reservas e atualiza a disponibilidade.
-- Professor: visualiza dados de alunos e solicita salas para atividades.
--->
+- **Tatuador (Administrador do site):** É o dono do site e o principal usuário do painel de gerenciamento. Ele precisa de uma interface extremamente simples e intuitiva para realizar suas tarefas sem a necessidade de conhecimento técnico.
+    
+    -  **Funções/Necessidades Principais:**
+        
+        -  Gerenciar seu portfólio de tatuagens: adicionar novas fotos, organizar em categorias/estilos.
+            
+        -  Administrar sua agenda: visualizar horários, bloquear datas e horários manualmente.
+            
+        -  Receber e gerenciar solicitações de agendamento (visualizar os pedidos pendentes, aprovar ou recusar).
+            
+        -  Atualizar o conteúdo informativo do site (editar a página de "Dúvidas Frequentes", informações de contato e endereço).
 
-**Principais Funcionalidades:**
-- **Portfólio de trabalhos:** Exibição de fotos organizadas por estilo (preto e branco, colorido, fineline etc.).  
-- **Galerias categorizadas:** Possibilidade de o cliente compartilhar diretamente links de estilos específicos.  
-- **Sistema de agendamento:** Calendário com visualização de horários livres e formulário de solicitação (nome, contato, descrição da tattoo e upload de referência).  
-- **Área administrativa:** Painel exclusivo para o tatuador aprovar ou recusar pedidos de agendamento, gerenciar agenda e atualizar portfólio.  
-- **Notificações:** Envio de aviso por e-mail (ou outra forma definida) para o tatuador sobre novas solicitações.  
-- **FAQ (Perguntas Frequentes):** Página com respostas às dúvidas comuns sobre cuidados, pagamentos e regras.  
-- **Página de contato e localização:** Endereço do estúdio, mapa integrado e canais de comunicação.  
-- **Gerenciamento simples de conteúdo:** Interface intuitiva para o tatuador adicionar, remover ou editar fotos e informações sem precisar de conhecimento técnico.  
+Para complementar a visão do sistema, é fundamental definir também a persona do usuário final:
 
+- **Cliente (Visitante do site):** É o usuário que acessa o site para conhecer o trabalho do tatuador e tentar marcar um horário. Ele busca uma experiência fluida, visual e direta para resolver suas necessidades.
+    
+    - **Necessidades Principais:**
+        
+        - Visualizar o portfólio do tatuador de forma organizada, com a possibilidade de filtrar por estilo.
+            
+        - Consultar a agenda para ver os dias e horários disponíveis.
+            
+        - Enviar um pedido de agendamento: preenchendo um formulário com seus dados, descrição da ideia e imagens de referência.
+            
+        - Acessar facilmente informações práticas: endereço do estúdio, contato e respostas para dúvidas comuns.
 ---
 
 ## 🧩 Matriz "É / Não É / Faz / Não Faz"
 <div align="center">
 
-| Categoria  | Descrição |
-|-----------|-----------|
-| **É**     | <!-- Ex: Uma aplicação web acessível por desktop e mobile --> |
-| **Não É** | <!-- Ex: Um aplicativo nativo para celular --> |
-| **Faz**   | <!-- Ex: Permite reservas de salas, equipamentos, exporta relatórios em PDF --> |
-| **Não Faz** | <!-- Ex: Controle de acesso físico aos espaços da biblioteca --> |
 
-</div>
+| Categoria   | Descrição                                                                                                                                                                                                                                                                                                                          |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **É**       | - Um cartão de visitas digital e profissional.<br>- Uma ferramenta de portfólio para exibir trabalhos de forma organizada<br>- Um sistema para otimizar e organizar o processo de agendamento.                                                                                                                                     |
+| **Não É**   | - Uma plataforma de e-commerce ou um sistema de pagamentos online.<br>- Uma ferramenta de comunicação em tempo real ou chat                                                                                                                                                                                                        |
+| **Faz**     | - Exibe os trabalhos do tatuador, permitindo a filtragem por estilo<br>- Mostra aos clientes uma agenda com os horários disponíveis para tatuar<br>- Centraliza todas as solicitações em um painel administrativo para o tatuador aprovar ou recusar<br>- Permite que o tatuador bloqueie dias/horários manualmente em sua agenda. |
+| **Não Faz** | - Processa pagamentos<br>- Aprova agendamentos automaticamente<br>- Gerencia as finanças do estúdio<br>- Realiza conversas em tempo real (chat)                                                                                                                                                                                    |
 
----
-
-## 🧠 Matriz de Certezas, Suposições e Dúvidas
-
-<!--
-Esta matriz deve ser utilizada para mapear o que já sabemos com segurança (certezas), o que acreditamos mas ainda precisa ser validado (suposições), e o que ainda não sabemos ou precisa ser investigado (dúvidas).
-
-Ela pode ser preenchida em diferentes momentos:
-- Logo após a reunião de repasse da área de vendas;
-- Durante o processo de elaboração do escopo com o cliente;
-- Sempre que surgirem novas informações relevantes.
-
-Essa matriz é útil para orientar as conversas com o cliente, levantar riscos, validar premissas e organizar pontos pendentes.
--->
-
-<div align="center">
-
-| Tipo        | Descrição                                                                |
-|-------------|--------------------------------------------------------------------------|
-| **Certeza**   | <!-- Ex: O sistema deve ter autenticação via e-mail institucional -->    |
-| **Suposição** | <!-- Ex: Acreditamos que o sistema será usado principalmente via mobile --> |
-| **Dúvida**    | <!-- Ex: O cliente precisa de integração com sistema acadêmico? -->      |
 
 </div>
 
@@ -188,19 +172,89 @@ RF04 - O sistema deve enviar um e-mail automático de confirmação após uma re
 
 <!-- Preencha abaixo com os requisitos do seu projeto -->
 
-- RF01 - 
-- RF02 - 
-- RF03 - 
-- RF04 - 
+### 1. Páginas Públicas 
+
+#### Páginas de Login / Cadastro de Cliente
+| ID       | Requisito            | Descrição                                                                                                                                                |
+| :------- | :------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF01** | Cadastro de Cliente  | O sistema deve permitir que um novo cliente se cadastre fornecendo nome completo, e-mail, número de contato e uma senha.                                 |
+| **RF02** | Login de Cliente     | O sistema deve permitir que um cliente já cadastrado realize login utilizando seu e-mail e senha.                                                        |
+| **RF03** | Recuperação de Senha | O sistema deve fornecer uma funcionalidade de "Esqueci minha senha", na qual o cliente informa seu e-mail e recebe as instruções para redefinir a senha. |
+
+#### Página de Portfólio
+| ID       | Requisito                 | Descrição                                                                                                                       |
+| :------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------ |
+| **RF04** | Visualização do Portfólio | O sistema deve exibir uma galeria com as imagens das tatuagens cadastradas pelo administrador.                                  |
+| **RF05** | Filtragem do Portfólio    | O sistema deve permitir que o usuário filtre as imagens do portfólio por categorias (estilos) pré-definidas pelo administrador. |
+
+#### Página de Agendamento
+| ID       | Requisito                      | Descrição                                                                                                                                                                                                                                                       |
+| :------- | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF06** | Visualização da Agenda Pública | O sistema deve exibir um calendário com os dias e horários que estão disponíveis para agendamento. Horários já ocupados ou bloqueados não devem ser selecionáveis.                                                                                              |
+| **RF07** | Solicitação de Agendamento     | O sistema deve permitir que um cliente inicie uma solicitação de agendamento ao selecionar um horário disponível e preencher um formulário com nome, telefone, e-mail, descrição da sua ideia, tamanho, estilo da tatuagem e o upload de imagens de referência. |
+
+#### Fluxo de Finalização de Agendamento (Lógica de Conta)
+| ID       | Requisito                                   | Descrição                                                                                                                                                                                              |
+| :------- | :------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF08** | Vinculação de Solicitação à Conta Existente | Ao submeter o formulário de agendamento, se o e-mail informado já pertencer a um cliente cadastrado, o sistema deve prosseguir com a solicitação, vinculando-a à conta existente.                      |
+| **RF09** | Criação de Conta via Solicitação            | Se o e-mail informado no formulário de agendamento não possuir cadastro, o sistema deve criar uma nova conta para o cliente, registrar a solicitação e notificá-lo por e-mail para que crie uma senha. |
+
+#### Páginas de Conteúdo (FAQ, Sobre, Contato)
+| ID       | Requisito                           | Descrição                                                                                                                   |
+| :------- | :---------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| **RF10** | Visualização de Páginas de Conteúdo | O sistema deve exibir o conteúdo das páginas "FAQ", "Contato e Localização" e "Sobre", conforme editado pelo administrador. |
+
+### 2. Painel Administrativo 
+
+#### Página de Login do Administrador
+| ID       | Requisito              | Descrição                                                                                                                        |
+| :------- | :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| **RF11** | Login do Administrador | O sistema deve possuir uma área de login, com e-mail e senha, para acesso exclusivo do administrador ao painel de gerenciamento. |
+
+#### Página de Dashboard Principal
+| ID       | Requisito                 | Descrição                                                                                                                              |
+| :------- | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF12** | Dashboard de Solicitações | O painel administrativo deve exibir, em sua tela principal, uma lista de todas as solicitações de agendamento com o status "Pendente". |
+
+#### Página de Detalhes da Solicitação
+| ID       | Requisito                   | Descrição                                                                                                                                                                                                         |
+| :------- | :-------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF13** | Detalhamento da Solicitação | O administrador deve poder visualizar os detalhes completos de uma solicitação: dados do cliente, descrição da ideia e as imagens de referência.                                                                  |
+| **RF14** | Aprovação de Solicitação    | O administrador deve ter a funcionalidade de "Aprovar" uma solicitação de agendamento. Ao ser aprovada, o status do horário na agenda deve mudar para "Confirmado" e o mesmo deve ser removido da agenda pública. |
+| **RF15** | Recusa de Solicitação       | O administrador deve ter a funcionalidade de "Recusar" uma solicitação de agendamento. Ao ser recusada, o horário deve voltar a ficar "Livre" e disponível na agenda pública.                                     |
+
+#### Página de Gestão da Agenda
+| ID       | Requisito                       | Descrição                                                                                                                                                  |
+| :------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF16** | Visualização da Agenda Completa | O administrador deve ter acesso a uma visão de calendário completa, que exibe os status de todos os horários (ex: Livre, Pendente, Confirmado, Bloqueado). |
+| **RF17** | Bloqueio Manual de Horários     | O administrador deve poder bloquear e desbloquear manually dias e/ou horários específicos em sua agenda, tornando-os indisponíveis na agenda pública.      |
+
+#### Página de Gestão do Portfólio
+| ID       | Requisito                          | Descrição                                                                                                     |
+| :------- | :--------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **RF18** | Upload de Imagens                  | O sistema deve permitir que o administrador faça o upload de novas imagens para o portfólio.                  |
+| **RF20** | Associação de Imagens a Categorias | Ao adicionar ou editar uma imagem, o administrador deve poder associá-la a uma ou mais categorias existentes. |
+| **RF21** | Exclusão de Imagens                | O administrador deve poder excluir imagens existentes do portfólio.                                           |
+
+#### Página de Gestão de Categorias
+| ID       | Requisito            | Descrição                                                                                                               |
+| :------- | :------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| **RF19** | Gestão de Categorias | O administrador deve poder criar, editar e excluir as categorias (estilos) que serão usadas para organizar o portfólio. |
+
+#### Página de Gestão de Conteúdo (CMS)
+| ID       | Requisito                     | Descrição                                                                                                                                                          |
+| :------- | :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **RF22** | Edição de Páginas de Conteúdo | O sistema deve fornecer um editor de texto simples para que o administrador possa criar e alterar o conteúdo das páginas "FAQ", "Contato e Localização" e "Sobre". |
+
 
 ## 📱 Responsividade
 
 **O projeto será responsivo?**
-- [ ] Sim
+- [ X ] Sim
 - [ ] Não
 
 **Se sim, até qual ponto?**
-- [ ] Mobile-first
+- [ X ] Mobile-first
 - [ ] Adaptável para tablets
 - [ ] Desktops Grandes e notebooks menores
 - [ ] Totalmente responsivo (desktop, tablet, mobile)
