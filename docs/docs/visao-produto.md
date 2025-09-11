@@ -272,6 +272,9 @@ RF04 - O sistema deve enviar um e-mail automático de confirmação após uma re
 | :------- | :----------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **RF06** | Visualização da Agenda Pública | O sistema deve exibir um calendário com os dias e horários que estão disponíveis para agendamento. Horários já ocupados ou bloqueados não devem ser selecionáveis.                                                                                              |
 | **RF07** | Solicitação de Agendamento     | O sistema deve permitir que um cliente inicie uma solicitação de agendamento ao selecionar um horário disponível e preencher um formulário com nome, telefone, e-mail, descrição da sua ideia, tamanho, estilo da tatuagem e o upload de imagens de referência. |
+| **RF08** | Acompanhamento do Agendamento  | O sistema deve permitir que o cliente acompanhe o andamento de seu agendamento, visualizando em uma tabela o campo Status do Agendamento, que pode estar como marcado (confirmado e ativo), cancelado (desmarcado e inválido) ou finalizado (já concluído). |
+| **RF09** | Cancelamento de Agendamento    | O sistema deve permitir que o cliente cancele um agendamento já marcado por meio de um botão “Cancelar” disponível na interface de acompanhamento. Ao confirmar a ação, o status do agendamento deve ser atualizado para cancelado, e o horário correspondente deve voltar a ficar disponível na agenda pública. |
+
 
 #### Fluxo de Finalização de Agendamento (Lógica de Conta)
 | ID       | Requisito                                   | Descrição                                                                                                                                                                                              |
