@@ -227,7 +227,7 @@ RF04 - O sistema deve enviar um e-mail automático de confirmação após uma re
 | ID       | Requisito                       | Descrição                                                                                                                                                  |
 | :------- | :------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **RF16** | Visualização da Agenda Completa | O administrador deve ter acesso a uma visão de calendário completa, que exibe os status de todos os horários (ex: Livre, Pendente, Confirmado, Bloqueado). |
-| **RF17** | Bloqueio Manual de Horários     | O administrador deve poder bloquear e desbloquear manually dias e/ou horários específicos em sua agenda, tornando-os indisponíveis na agenda pública.      |
+| **RF17** | Bloqueio Manual de Horários     | O administrador deve poder bloquear e desbloquear manualmente dias e/ou horários específicos em sua agenda, tornando-os indisponíveis na agenda pública.      |
 
 #### Página de Gestão do Portfólio
 | ID       | Requisito                          | Descrição                                                                                                     |
