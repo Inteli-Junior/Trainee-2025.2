@@ -54,8 +54,8 @@ sidebar_position: 3
 ### Banco de Dados
 
 - Tipo (relacional/não-relacional): Relacional
-- Tecnologia: PostgreSQL
-- Justificativa da escolha: O PostgreSQL é um banco relacional open source robusto, confiável e altamente escalável. Ele oferece recursos avançados (como JSONB, índices eficientes e suporte a transações complexas), garantindo consistência e performance.
+- Tecnologia: AWS RDS com PostgreSQL
+- Justificativa da escolha: A escolha do AWS RDS com PostgreSQL combina a robustez e os recursos avançados do PostgreSQL (como suporte a JSONB, índices eficientes e transações complexas) com a praticidade de um serviço gerenciado. O RDS oferece alta disponibilidade, backups automáticos, replicação e escalabilidade vertical/horizontal, reduzindo a sobrecarga operacional da equipe e garantindo consistência e performance em produção.
 
 ### Outras Tecnologias
 
@@ -66,6 +66,10 @@ sidebar_position: 3
 - Datadog (Monitoramento e Logs): oferece observabilidade completa, facilitando a identificação de gargalos de performance e erros em produção.
 
 - Jest & xUnit/NUnit (Testes): permitem a automação de testes unitários e de integração, garantindo qualidade e confiabilidade contínua do software.
+
+- AWS SSM / Secrets Manager (Gestão de segredos): utilizado para armazenar credenciais de banco de dados, chaves JWT e acessos à AWS de forma segura, com rotação automática e eliminação de hardcode no código-fonte.
+
+- bcrypt (Criptografia de senhas): garante hashing seguro de senhas e tokens sensíveis antes do armazenamento no banco, reforçando a proteção contra ataques de brute force e vazamentos de dados.
 
 - Justificativa da escolha:
 Essas ferramentas foram selecionadas para fortalecer a manutenibilidade, qualidade e escalabilidade do sistema. Enquanto Docker e S3 asseguram infraestrutura estável e flexível, Datadog fornece monitoramento proativo e suporte à tomada de decisão baseada em métricas. Já os testes automatizados com Jest e xUnit/NUnit aumentam a confiabilidade das entregas, acelerando o ciclo de desenvolvimento.
@@ -102,7 +106,12 @@ Essas ferramentas foram selecionadas para fortalecer a manutenibilidade, qualida
 
 ## Considerações de Segurança
 
-* Políticas de CORS:
-* Proteção de dados sensíveis (ex: criptografia, mascaramento):
-* Gestão de segredos (ex: Vault, Secrets Manager):
-* Autenticação e autorização:
+- Políticas de CORS: Será configurado no backend .NET para aceitar apenas requisições oriundas do domínio do frontend Next.JS em produção. Em ambiente de desenvolvimento, o CORS será flexibilizado para permitir localhost em portas específicas, mas nunca aberto de forma irrestrita `(*)`.
+
+- Proteção de dados sensíveis: Todas as comunicações entre cliente e servidor ocorrerão via HTTPS. Dados sensíveis (como senhas e tokens) serão armazenados com hash seguro via bcrypt. Informações críticas armazenadas no PostgreSQL serão criptografadas, e dados que aparecerem em logs serão mascarados para evitar vazamentos.
+
+- Gestão de segredos:
+As credenciais do banco de dados, chaves JWT e acessos ao AWS S3 não ficarão hardcoded no repositório. Elas serão gerenciadas através do AWS Secrets Manager (SSM) e injetadas como variáveis de ambiente no container Docker em tempo de execução.
+
+- Autenticação e autorização:
+O sistema utilizará JWT integrado ao .NET Identity, emitido no momento do login. O token conterá roles e claims, permitindo controle granular de acesso às rotas da API. O frontend Next.JS validará a expiração do token antes de cada requisição crítica.
