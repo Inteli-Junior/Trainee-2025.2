@@ -30,24 +30,24 @@ Lorena Gabriela da Silva Garcia
 
 ## ✅ Checklist de Entrada (para iniciar o projeto)
 
-- [ ] Reunião de Kickoff com o cliente realizada
-- [ ] Objetivo do projeto compreendido
-- [ ] Tecnologias necessárias mapeadas
-- [ ] Estimativa de esforço feita
-- [ ] Capacidade do time verificada
-- [ ] Escopo inicial aprovado pelo cliente
+- [X] Reunião de Kickoff com o cliente realizada
+- [X] Objetivo do projeto compreendido
+- [X] Tecnologias necessárias mapeadas
+- [X] Estimativa de esforço feita
+- [X] Capacidade do time verificada
+- [X] Escopo inicial aprovado pelo cliente
 
 ---
 
 ## 📤 Checklist de Saída (para encaminhar o projeto às próximas áreas)
 
-- [ ] Documento de Visão preenchido e validado
-- [ ] Matriz “é/não é/faz/não faz” definida
-- [ ] Wireframes (se aplicável) finalizados
-- [ ] Epics e User Stories redigidas
-- [ ] Datas de entrada/saída em cada área definidas
-- [ ] Contrato e escopo revisados e claros
-- [ ] Alinhamento com área de Design ou Desenvolvimento realizado
+- [X] Documento de Visão preenchido e validado
+- [X] Matriz “é/não é/faz/não faz” definida
+- [X] Wireframes (se aplicável) finalizados
+- [X] Epics e User Stories redigidas
+- [X] Datas de entrada/saída em cada área definidas
+- [X] Contrato e escopo revisados e claros
+- [X] Alinhamento com área de Design ou Desenvolvimento realizado
 
 ---
 
