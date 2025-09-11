@@ -77,14 +77,22 @@ Essas ferramentas foram selecionadas para fortalecer a manutenibilidade, qualida
 ## Arquitetura da Solução
 
 ### Visão Geral da Arquitetura
-> Descrição textual resumida da arquitetura proposta.
+
+O sistema utiliza uma arquitetura MVC orientada a serviços, com back-end rodando em C# com .NET e front-end baseado em TypeScript com NextJS. Para deploy nos ambientes de desenvolvimento e produção, utilizamos docker para conteinerização e AWS como plataforma de cloud.
+
+O back-end roda em uma instância EC2 da AWS (Amazon Elastic Computing Cloud), enquanto o deploy do front-end é feito em Vercel para uma redução de custos. Os serviços de armazenamento e banco de dados funcionam em nuvem com os serviços de Bucket do S3 (Simple Storage System) e RDS (Relational Database System) da AWS respectivamente.
 
 ### Componentes Principais
-- Serviços e microsserviços envolvidos
-- Integrações externas (APIs de terceiros)
+- AWS EC2
+- AWS RDS
+- AWS S3
+- Back-end em .NET
+- Front-end em NextJS
+- Datadog
 
 ### Diagrama da Arquitetura (opcional)
-> Incluir imagem ou link para diagrama (em formato .png, .svg, ou mermaid.js)
+
+![Diagrama de componentes](../../assets/diagrama-componentes.jpg)
 
 ## Estrutura de Implantação
 
