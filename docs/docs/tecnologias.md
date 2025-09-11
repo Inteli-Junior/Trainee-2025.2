@@ -57,6 +57,15 @@ sidebar_position: 3
 - Tecnologia: AWS RDS com PostgreSQL
 - Justificativa da escolha: A escolha do AWS RDS com PostgreSQL combina a robustez e os recursos avançados do PostgreSQL (como suporte a JSONB, índices eficientes e transações complexas) com a praticidade de um serviço gerenciado. O RDS oferece alta disponibilidade, backups automáticos, replicação e escalabilidade vertical/horizontal, reduzindo a sobrecarga operacional da equipe e garantindo consistência e performance em produção.
 
+### Diagrama do Banco de Dados
+
+O modelo de dados foi estruturado com base nos requisitos do sistema e representa de forma clara as entidades principais, atributos e relacionamentos.  
+O diagrama foi desenvolvido no **draw.io** e serve como documentação visual para facilitar a comunicação entre equipe de desenvolvimento e stakeholders.  
+
+![Diagrama do Banco de Dados](../../assets/diagrama-entidade-relacionamento-ej.png)
+
+
+
 ### Outras Tecnologias
 
 - Docker (DevOps): garante portabilidade e consistência entre ambientes de desenvolvimento, homologação e produção.
