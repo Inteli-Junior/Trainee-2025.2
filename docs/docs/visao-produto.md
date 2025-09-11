@@ -108,7 +108,6 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 | **Faz**     | - Exibe os trabalhos do tatuador, permitindo a filtragem por estilo<br>- Mostra aos clientes uma agenda com os horários disponíveis para tatuar<br>- Centraliza todas as solicitações em um painel administrativo para o tatuador aprovar ou recusar<br>- Permite que o tatuador bloqueie dias/horários manualmente em sua agenda. |
 | **Não Faz** | - Processa pagamentos<br>- Aprova agendamentos automaticamente<br>- Gerencia as finanças do estúdio<br>- Realiza conversas em tempo real (chat)                                                                                                                                                                                    |
 
-
 </div>
 
 ---
@@ -144,11 +143,15 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Fazer login durante a solicitação de agendamento
 - **Justificativa:** Vincular o pedido à conta já existente do cliente
 
+<br/>
+
 #### US04
 
 - **Usuário:** Cliente
 - **Objetivo:** Recuperar a senha informando o e-mail
 - **Justificativa:** Possibilitar o acesso à conta em caso de esquecimento de senha
+
+<br/>
 
 #### US05
 
@@ -156,11 +159,15 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Visualizar galeria de tatuagens
 - **Justificativa:** Conhecer os trabalhos realizados pelo tatuador
 
+<br/>
+
 #### US06
 
 - **Usuário:** Cliente
 - **Objetivo:** Filtrar o portfólio por categorias/estilos
 - **Justificativa:** Encontrar mais facilmente o tipo de trabalho de interesse
+
+<br/>
 
 #### US07
 
@@ -168,11 +175,15 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Acessar páginas de conteúdo (FAQ, Sobre, Contato)
 - **Justificativa:** Obter informações práticas sobre o estúdio
 
+<br/>
+
 #### US08
 
 - **Usuário:** Administrador
 - **Objetivo:** Gerenciar portfólio (adicionar, associar a categorias e excluir imagens)
 - **Justificativa:** Manter os trabalhos organizados e atualizados
+
+<br/>
 
 #### US09
 
@@ -180,11 +191,15 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Gerenciar categorias de estilos (criar, editar e excluir)
 - **Justificativa:** Organizar melhor o portfólio e facilitar a navegação dos clientes
 
+<br/>
+
 #### US10
 
 - **Usuário:** Administrador
 - **Objetivo:** Editar o conteúdo das páginas públicas (FAQ, Sobre, Contato)
 - **Justificativa:** Manter as informações sempre atualizadas para os clientes
+
+<br/>
 
 #### US11
 
@@ -192,11 +207,15 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Visualizar a agenda pública
 - **Justificativa:** Consultar horários disponíveis antes de solicitar um agendamento
 
+<br/>
+
 #### US12
 
 - **Usuário:** Cliente
 - **Objetivo:** Solicitar agendamento selecionando horário e preenchendo formulário
 - **Justificativa:** Enviar solicitação diretamente ao tatuador
+
+<br/>
 
 #### US13
 
@@ -204,17 +223,23 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 - **Objetivo:** Visualizar agenda completa com status dos horários (Livre, Pendente, Confirmado, Bloqueado)
 - **Justificativa:** Ter controle sobre a disponibilidade e compromissos
 
+<br/>
+
 #### US14
 
 - **Usuário:** Administrador
 - **Objetivo:** Gerenciar disponibilidade da agenda (recusar solicitações, bloquear/desbloquear horários)
 - **Justificativa:** Manter controle total sobre os períodos de atendimento
 
+<br/>
+
 #### US15
 
 - **Usuário:** Administrador
 - **Objetivo:** Visualizar no dashboard todas as solicitações pendentes
 - **Justificativa:** Ter visão rápida do que precisa ser tratado
+
+<br/>
 
 #### US16
 
