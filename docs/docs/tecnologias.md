@@ -89,17 +89,20 @@ Essas ferramentas foram selecionadas para fortalecer a manutenibilidade, qualida
 ## Estrutura de Implantação
 
 ### Ambiente de Desenvolvimento
-
-* Como os devs devem subir localmente:
-* Docker/Compose disponível?:
-* Variáveis de ambiente principais:
+- **Como os devs devem subir localmente:** via Docker Compose, utilizando containers para backend, frontend e banco de dados.  
+- **Docker/Compose disponível?:** Sim, com arquivos `Dockerfile` e `docker-compose.yml` versionados no repositório.  
+- **Variáveis de ambiente principais:**  
+  - `DATABASE_URL` (PostgreSQL)  
+  - `JWT_SECRET` (chave de assinatura dos tokens)  
+  - `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY` (credenciais para S3 e Secrets Manager)  
+  - `DATADOG_API_KEY` (monitoramento)  
 
 ### Ambiente de Produção
+- **URL:** `https://tattoostudio.app` 
+- **Estratégia de deploy:** Blue/Green para evitar downtime em atualizações críticas.  
+- **Infraestrutura:** AWS (ECS para containers, RDS para banco, S3 para assets, CloudFront como CDN).  
+- **Ferramentas de observabilidade ativas:** Datadog (métricas, logs, tracing) + monitoramento nativo da AWS (CloudWatch).  
 
-* URL:
-* Estratégia de deploy (blue/green, canary, etc):
-* Infraestrutura (ex: AWS, GCP, Heroku, Vercel, etc):
-* Ferramentas de observabilidade ativas:
 
 ### Diagrama de Implantação (opcional)
 > Diagrama com servidores, buckets, serviços gerenciados, DNS, CDNs, etc.
