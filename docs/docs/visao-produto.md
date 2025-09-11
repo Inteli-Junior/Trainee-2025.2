@@ -12,7 +12,7 @@ sidebar_position: 2
 Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Cliente:** 
-Joãozinho Tatuagens (tatuador freelancer)
+João (tatuador freelancer)
 
 - **Responsável da Visão de Produto (PO):**
 <!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente -->
@@ -59,7 +59,7 @@ Joãozinho Tatuagens (tatuador freelancer)
 Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione como cartão de visitas digital e plataforma de gestão. O sistema terá um portfólio organizado por estilos de tatuagem, um módulo de agendamento de sessões com fluxo de aprovação pelo próprio tatuador, além de páginas informativas (FAQ, contato e localização).
 
 **Objetivos:**
-- Profissionalizar a presença online do cliente, oferecendo um site organizado e atrativo.
+- Melhorar a presença online do cliente, oferecendo um site organizado e atrativo.
 - Facilitar a divulgação do portfólio, permitindo a separação por estilos de tatuagem.
 - Automatizar e organizar o processo de solicitação de horários, reduzindo o tempo gasto em conversas informais no WhatsApp e Instagram.
 - Criar uma área administrativa intuitiva para o tatuador gerenciar portfólio, agenda e dúvidas frequentes sem necessidade de conhecimentos técnicos.
@@ -71,11 +71,11 @@ Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione co
 ## 👤 Personas
 
 
-- **Tatuador (Administrador do site):** É o dono do site e o principal usuário do painel de gerenciamento. Ele precisa de uma interface extremamente simples e intuitiva para realizar suas tarefas sem a necessidade de conhecimento técnico.
+- **Tatuador (Administrador do site):** É o dono do site e o principal usuário do painel de gerenciamento. Ele precisa de uma interface intuitiva para realizar suas tarefas sem a necessidade de conhecimento técnico.
     
-    -  **Funções/Necessidades Principais:**
+    -  **Necessidades Principais:**
         
-        -  Gerenciar seu portfólio de tatuagens: adicionar novas fotos, organizar em categorias/estilos.
+        -  Gerenciar seu portfólio de tatuagens: adicionar, excluir, editar suas fotos. além de poder organizá-las em categorias/estilos.
             
         -  Administrar sua agenda: visualizar horários, bloquear datas e horários manualmente.
             
@@ -85,7 +85,7 @@ Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione co
 
 Para complementar a visão do sistema, é fundamental definir também a persona do usuário final:
 
-- **Cliente (Visitante do site):** É o usuário que acessa o site para conhecer o trabalho do tatuador e tentar marcar um horário. Ele busca uma experiência fluida, visual e direta para resolver suas necessidades.
+- **Cliente (Visitante do site):** É o usuário que acessa o site para conhecer o trabalho do tatuador e/ou marcar um horário com o mesmo. Ele busca uma experiência fluida, visual e direta para resolver suas necessidades.
     
     - **Necessidades Principais:**
         
