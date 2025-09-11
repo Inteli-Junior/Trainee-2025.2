@@ -56,7 +56,7 @@ João (tatuador freelancer)
 <!-- Explique brevemente o que é o projeto, sua motivação, e o problema que resolve. -->
 
 **Descrição:**
-Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione como cartão de visitas digital e plataforma de gestão. O sistema terá um portfólio organizado por estilos de tatuagem, um módulo de agendamento de sessões com fluxo de aprovação pelo próprio tatuador, além de páginas informativas (FAQ, contato e localização).
+Desenvolver um sistema web para o tatuador João, que funcione como cartão de visitas digital e plataforma de gestão. O sistema terá um portfólio organizado por estilos de tatuagem, um módulo de agendamento de sessões com fluxo de aprovação pelo próprio tatuador, além de páginas informativas (FAQ, contato e localização).
 
 **Objetivos:**
 - Melhorar a presença online do cliente, oferecendo um site organizado e atrativo.
@@ -65,7 +65,7 @@ Desenvolver um sistema web para o tatuador Joãozinho Tatuagens, que funcione co
 - Criar uma área administrativa intuitiva para o tatuador gerenciar portfólio, agenda e dúvidas frequentes sem necessidade de conhecimentos técnicos.
 
 **Público-Alvo:**
-- Clientes em potencial interessados em conhecer os trabalhos do tatuador e solicitar agendamento de sessões.
+- Clientes em potencial oriundos de redes sociais, interessados em conhecer os trabalhos do tatuador e realizar o agendamento de sessões
 - O próprio tatuador (administrador do sistema), que utilizará a plataforma para gerenciar seu portfólio, agenda e informações de atendimento.
 
 ## 👤 Personas
