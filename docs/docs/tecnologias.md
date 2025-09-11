@@ -7,32 +7,32 @@ sidebar_position: 3
 ## 🗓 Informações Gerais
 
 - **Nome do Projeto:**
-<!-- Exemplo: Sistema de Gestão de Reservas para Biblioteca -->
+Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Tech Lead:**
-<!-- Nome da pessoa responsável pela coordenação e entrega da parte visual do projeto -->
+Davi Duarte
 
 - **Data de Entrada na Área:**
-<!-- Exemplo: 10/04/2025 -->
+10/09/2025
 
 - **Data Estimada de Conclusão da Área:**
-<!-- Exemplo: 08/06/2025 -->
+06/10/2025
 
 - **Link para Documento de Visão de Produto:**
-<!-- Exemplo: https://github.com/empresa/docs/projeto-reservas/visao.md -->
+https://github.com/Inteli-Junior/Trainee-2025.2/blob/main/docs/docs/visao-produto.md
 
 ## Checklist de Entrada e Saída da Área de Tecnologia
 
 ### ✅ Checklist de Entrada
 
-- [ ] Documento de Visão de Produto validado
+- [X] Documento de Visão de Produto validado
 
 ### 📤 Checklist de Saída
 
-- [ ] Stack definida e aprovada
-- [ ] Diagrama de arquitetura completo
-- [ ] Plano de implantação claro
-- [ ] Documento validado com o time de Desenvolvimento
+- [X] Stack definida e aprovada
+- [X] Diagrama de arquitetura completo
+- [X] Plano de implantação claro
+- [X] Documento validado com o time de Desenvolvimento
 
 ## Stack Tecnológica
 
