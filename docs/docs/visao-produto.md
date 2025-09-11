@@ -15,7 +15,7 @@ Tattoo Studio — Sistema de Portfólio e Agendamento
 João (tatuador freelancer)
 
 - **Responsável da Visão de Produto (PO):**
-<!-- Nome da pessoa responsável pelo acompanhamento e comunicação com o cliente -->
+Lorena Gabriela da Silva Garcia
 
 - **Duração Total Estimada:** 
 10 semanas
@@ -70,7 +70,6 @@ Desenvolver um sistema web para o tatuador João, que funcione como cartão de v
 
 ## 👤 Personas
 
-
 - **Tatuador (Administrador do site):** É o dono do site e o principal usuário do painel de gerenciamento. Ele precisa de uma interface intuitiva para realizar suas tarefas sem a necessidade de conhecimento técnico.
     
     -  **Necessidades Principais:**
@@ -119,28 +118,109 @@ Para complementar a visão do sistema, é fundamental definir também a persona 
 
 ### 🔹 Epics
 
-<!-- Exemplo: -->
-- Epic 1: Gerenciamento de Usuários
-- Epic 2: Sistema de Reservas
-- Epic 3: Notificações e Alertas
-- Epic 4: Relatórios
+- Epic 1: Autenticação e Cadastro no Fluxo de Agendamento
+- Epic 2: Portfólio e Conteúdo Público
+- Epic 3: Agenda e Solicitação de Agendamento
+- Epic 4: Gestão de Solicitações
 
 ### 🔸 User Stories
 
-<!-- Exemplo de User Story: -->
 #### US1
-- **Usuário:** Como um aluno
-- **Objetivo:** Quero reservar uma sala de estudo
-- **Justificativa:** Para garantir que terei um espaço disponível no horário desejado
+- **Usuário:** Cliente novo
+- **Objetivo:** Preencher dados pessoais e informações da tatuagem ao solicitar agendamento
+- **Justificativa:** Garantir que o sistema registre o pedido e crie automaticamente a conta do cliente
 
 <br/>
 
 #### US2
-- **Usuário:** Como um professor
-- **Objetivo:** Quero ver os alunos da minha turma
-- **Justificativa:** Para garantir que consigo acompanhá-los granularmente durante o ano letivo
+- **Usuário:** Cliente novo
+- **Objetivo:** Receber e-mail com instruções para definir a senha após criação automática da conta
+- **Justificativa:** Permitir que o cliente acesse futuramente seus dados e histórico de agendamentos
 
-<!-- Repetir para cada funcionalidade importante -->
+<br/>
+
+#### US3
+- **Usuário:** Cliente existente
+- **Objetivo:** Fazer login durante a solicitação de agendamento
+- **Justificativa:** Vincular o pedido à conta já existente do cliente
+
+#### US04
+
+- **Usuário:** Cliente
+- **Objetivo:** Recuperar a senha informando o e-mail
+- **Justificativa:** Possibilitar o acesso à conta em caso de esquecimento de senha
+
+#### US05
+
+- **Usuário:** Cliente
+- **Objetivo:** Visualizar galeria de tatuagens
+- **Justificativa:** Conhecer os trabalhos realizados pelo tatuador
+
+#### US06
+
+- **Usuário:** Cliente
+- **Objetivo:** Filtrar o portfólio por categorias/estilos
+- **Justificativa:** Encontrar mais facilmente o tipo de trabalho de interesse
+
+#### US07
+
+- **Usuário:** Cliente
+- **Objetivo:** Acessar páginas de conteúdo (FAQ, Sobre, Contato)
+- **Justificativa:** Obter informações práticas sobre o estúdio
+
+#### US08
+
+- **Usuário:** Administrador
+- **Objetivo:** Gerenciar portfólio (adicionar, associar a categorias e excluir imagens)
+- **Justificativa:** Manter os trabalhos organizados e atualizados
+
+#### US09
+
+- **Usuário:** Administrador
+- **Objetivo:** Gerenciar categorias de estilos (criar, editar e excluir)
+- **Justificativa:** Organizar melhor o portfólio e facilitar a navegação dos clientes
+
+#### US10
+
+- **Usuário:** Administrador
+- **Objetivo:** Editar o conteúdo das páginas públicas (FAQ, Sobre, Contato)
+- **Justificativa:** Manter as informações sempre atualizadas para os clientes
+
+#### US11
+
+- **Usuário:** Cliente
+- **Objetivo:** Visualizar a agenda pública
+- **Justificativa:** Consultar horários disponíveis antes de solicitar um agendamento
+
+#### US12
+
+- **Usuário:** Cliente
+- **Objetivo:** Solicitar agendamento selecionando horário e preenchendo formulário
+- **Justificativa:** Enviar solicitação diretamente ao tatuador
+
+#### US13
+
+- **Usuário:** Administrador
+- **Objetivo:** Visualizar agenda completa com status dos horários (Livre, Pendente, Confirmado, Bloqueado)
+- **Justificativa:** Ter controle sobre a disponibilidade e compromissos
+
+#### US14
+
+- **Usuário:** Administrador
+- **Objetivo:** Gerenciar disponibilidade da agenda (recusar solicitações, bloquear/desbloquear horários)
+- **Justificativa:** Manter controle total sobre os períodos de atendimento
+
+#### US15
+
+- **Usuário:** Administrador
+- **Objetivo:** Visualizar no dashboard todas as solicitações pendentes
+- **Justificativa:** Ter visão rápida do que precisa ser tratado
+
+#### US16
+
+- **Usuário:** Administrador
+- **Objetivo:** Acessar detalhes completos de uma solicitação
+- **Justificativa:** Avaliar a proposta do cliente antes de tomar uma decisão
 
 ---
 
