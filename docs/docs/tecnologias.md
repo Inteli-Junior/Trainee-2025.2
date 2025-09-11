@@ -10,7 +10,7 @@ sidebar_position: 3
 Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Tech Lead:**
-Davi Duarte
+Davi Duarte Rodrigues
 
 - **Data de Entrada na Área:**
 10/09/2025
