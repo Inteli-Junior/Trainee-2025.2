@@ -76,7 +76,7 @@ O back-end roda em uma instância EC2 da AWS (Amazon Elastic Computing Cloud), e
 - AWS S3
 - Back-end em .NET
 - Front-end em NextJS
-- Datadog para Logs
+- Datadog
 
 ### Diagrama da Arquitetura (opcional)
 
