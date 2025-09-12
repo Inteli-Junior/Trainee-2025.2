@@ -99,7 +99,7 @@ O back-end roda em uma instância ECS da AWS (Amazon Elastic Container Service),
 - Front-end em NextJS
 - Datadog
 
-### Diagrama da Arquitetura (opcional)
+### Diagrama da Arquitetura
 
 ![Diagrama de componentes](../../assets/diagrama-componentes.jpg)
 
@@ -119,10 +119,6 @@ O back-end roda em uma instância ECS da AWS (Amazon Elastic Container Service),
 - **Estratégia de deploy:** Blue/Green para evitar downtime em atualizações críticas.  
 - **Infraestrutura:** AWS (ECS para containers, RDS para banco, S3 para assets, CloudFront como CDN).  
 - **Ferramentas de observabilidade ativas:** Datadog (métricas, logs, tracing) + monitoramento nativo da AWS (CloudWatch).  
-
-
-### Diagrama de Implantação (opcional)
-> Diagrama com servidores, buckets, serviços gerenciados, DNS, CDNs, etc.
 
 ## Considerações de Segurança
 
