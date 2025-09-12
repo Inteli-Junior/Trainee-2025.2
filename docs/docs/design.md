@@ -59,13 +59,14 @@ A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem
 
 <div align="center">
   <sub>FIGURA 1 - Wireframes</sub><br>
-  <img src= "../assets/wireframes.png" width="100%"
+  <img src= "./assets/wireframes.png" width="100%"
   alt=" Wireframes "><br>
   <sup>Fonte: Material produzido pelos autores, 2025</sup>
 </div>
-Link para o Figma para melhor visualização: https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1
-<!-- Inserir aqui os wireframes iniciais do projeto, com links para Figma ou imagens embutidas, se possível -->
-<!-- Os wireframes devem ser validados com o cliente a fim de se determinar o fluxo da solução junto ao cliente. -->
+
+[Link para o Figma para melhor visualização](https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1)
+
+
 
 **Link para protótipo (Figma, Excalidraw, etc):**
 <!-- Exemplo: https://figma.com/projeto-reservas -->
