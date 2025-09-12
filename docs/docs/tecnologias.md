@@ -89,10 +89,10 @@ Essas ferramentas foram selecionadas para fortalecer a manutenibilidade, qualida
 
 O sistema utiliza uma arquitetura MVC orientada a serviços, com back-end rodando em C# com .NET e front-end baseado em TypeScript com NextJS. Para deploy nos ambientes de desenvolvimento e produção, utilizamos docker para conteinerização e AWS como plataforma de cloud.
 
-O back-end roda em uma instância EC2 da AWS (Amazon Elastic Computing Cloud), enquanto o deploy do front-end é feito em Vercel para uma redução de custos. Os serviços de armazenamento e banco de dados funcionam em nuvem com os serviços de Bucket do S3 (Simple Storage System) e RDS (Relational Database System) da AWS respectivamente.
+O back-end roda em uma instância ECS da AWS (Amazon Elastic Container Service), enquanto o deploy do front-end é feito em Vercel para uma redução de custos. Os sistemas de armazenamento e banco de dados funcionam em nuvem com os serviços de Bucket do S3 (Simple Storage System) e RDS (Relational Database System) da AWS, respectivamente. Para o envio de e-mails de recuperação de senha e validação de conta, utilizamos o SES (AWS Simple E-mail Service).
 
 ### Componentes Principais
-- AWS EC2
+- AWS ECS
 - AWS RDS
 - AWS S3
 - Back-end em .NET
