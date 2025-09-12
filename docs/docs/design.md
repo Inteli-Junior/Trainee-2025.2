@@ -8,37 +8,37 @@ sidebar_position: 3
 
 ## 🗓 Informações Gerais
 
-- **Nome do Projeto:**
-<!-- Exemplo: Sistema de Gestão de Reservas para Biblioteca -->
+- **Nome do Projeto:** 
+Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Responsável de Design:**
-<!-- Nome da pessoa responsável pela coordenação e entrega da parte visual do projeto -->
+Isabela Szolnoky Ferreira Cabral Souza da Conceição
 
 - **Data de Entrada no Design:**
-<!-- Exemplo: 05/04/2025 -->
+08/08/2025
 
 - **Data de Entrega Estimada para Desenvolvimento:**
-<!-- Exemplo: 19/04/2025 -->
+2 semanas
 
 - **Link para Documento de Visão de Produto:**
-<!-- Exemplo: https://github.com/empresa/docs/projeto-reservas/visao.md -->
+https://github.com/Inteli-Junior/Trainee-2025.2/blob/docs/intro-visao-produto/docs/docs/visao-produto.md
 
 ---
 
 ## ✅ Checklist de Entrada (antes de iniciar o design)
 
-- [ ] Documento de Visão de Produto recebido e validado
-- [ ] Escopo e funcionalidades compreendidos
-- [ ] Personas identificadas
-- [ ] Alinhamento com PO realizado
-- [ ] Capacidade da equipe verificada
-- [ ] Deadline estabelecido
+- [x] Documento de Visão de Produto recebido e validado
+- [x] Escopo e funcionalidades compreendidos
+- [x] Personas identificadas
+- [x] Alinhamento com PO realizado
+- [x] Capacidade da equipe verificada
+- [x] Deadline estabelecido
 
 ---
 
 ## 📤 Checklist de Saída (antes de repassar para Desenvolvimento)
 
-- [ ] Wireframes
+- [x] Wireframes
 - [ ] Protótipo final validado pelo cliente
 - [ ] Layouts organizados no Figma
 - [ ] Especificações visuais claras (cores, tamanhos, espaçamentos)
@@ -49,17 +49,83 @@ sidebar_position: 3
 
 ## 🎯 Objetivo do Design
 
-<!-- Explique brevemente o que o design precisa atingir em termos de comunicação visual, clareza de uso, tom da marca etc. -->
-
-<!-- **Exemplo:**
-Criar uma interface moderna, clara e acessível para facilitar reservas de salas em uma biblioteca universitária. A identidade visual deve transmitir profissionalismo e simplicidade, voltada para estudantes e servidores. -->
+Criar uma interface moderna, visual e intuitiva que destaque o portfólio do tatuador de forma organizada por estilos.
+O design deve transmitir profissionalismo e criatividade, refletindo a identidade artística do cliente e gerando confiança nos visitantes.
+A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem facilmente pelo portfólio e solicitem agendamentos sem complicações.
 
 ---
 
 ## 🖼 Wireframes
 
-<!-- Inserir aqui os wireframes iniciais do projeto, com links para Figma ou imagens embutidas, se possível -->
-<!-- Os wireframes devem ser validados com o cliente a fim de se determinar o fluxo da solução junto ao cliente. -->
+<div align="center">
+  <sub>FIGURA 1 - Wireframes</sub><br>
+  <img src= "./assets/wireframes.png" width="100%"
+  alt=" Wireframes "><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+<div align="center">
+  <sub>FIGURA 2 - Tela 1 – Cadastro</sub><br>
+  <img src="./assets/tela1.png" width="70%" alt="Tela 1 – Cadastro"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 3 - Telas 1.1 e 1.2 – Login (Cliente e Administrador)</sub><br>
+  <img src="./assets/telas1.1_1.2.png" width="100%" alt="Telas 1.1 e 1.2 – Login (Cliente e Administrador)"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 4 - Telas 2 e 2.1 – Página de entrada (foto e detalhes)</sub><br>
+  <img src="./assets/telas2_2.1.png" width="100%" alt="Telas 2 e 2.1 – Página de entrada (foto e detalhes)"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 5 - Telas 3 e 3.1 – Formulário e confirmação de envio</sub><br>
+  <img src="./assets/telas3_3.1.png" width="100%" alt="Telas 3 e 3.1 – Formulário e confirmação de envio"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 6 - Tela 4 – Página edição de perfil</sub><br>
+  <img src="./assets/telas4_4.1.png" width="100%" alt="Tela 4 – Página edição de perfil"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 7 - Telas 5, 5.1 e 5.2 – Páginas do administrador (inicial, edição e adição)</sub><br>
+  <img src="./assets/telas5_5.1_5.2.png" width="100%" alt="Telas 5, 5.1 e 5.2 – Páginas do administrador"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 8 - Telas 6 e 6.1 – Minha agenda e respostas do formulário</sub><br>
+  <img src="./assets/telas6_6.1.png" width="100%" alt="Telas 6 e 6.1 – Minha agenda e respostas do formulário"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+<div align="center">
+  <sub>FIGURA 9 - Tela 7 – Página de contato/ajuda</sub><br>
+  <img src="./assets/tela7.png" width="70%" alt="Tela 7 – Página de contato/ajuda"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 10 - Telas 8 e 9 – Meus agendamentos e agendamento</sub><br>
+  <img src="./assets/telas8_9.png" width="100%" alt="Telas 8 e 9 – Meus agendamentos e agendamento"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 11 - Navbar – Barra de navegação</sub><br>
+  <img src="./assets/navbar.png" width="100%" alt="Navbar – Barra de navegação"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+
+[Link para o Figma para melhor visualização](https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1)
+
+
 
 **Link para protótipo (Figma, Excalidraw, etc):**
 <!-- Exemplo: https://figma.com/projeto-reservas -->
@@ -71,17 +137,16 @@ Criar uma interface moderna, clara e acessível para facilitar reservas de salas
 ### 🅰️ Tipografia
 
 - **Fonte Primária:** 
-<!-- Exemplo: Inter -->
+Inter
 
 <!-- - **Fonte Secundária (se houver):** -->
 <!-- Exemplo: Roboto Mono -->
 
 - **Tamanhos padrão:**
-<!-- Exemplo:
-  - Títulos: 24px / Semibold
+  - Títulos: 32px / Bold
+  - Subtitulo: 24px / Regular
   - Texto: 16px / Regular
-  - Notas secundárias: 12px / Light
--->
+  - Notas secundárias: 14px / Light
 
 ---
 
@@ -135,7 +200,7 @@ Cliente não quer o uso de imagens de pessoas reais. Todo o visual deve ser base
 
 **O design contempla os seguintes formatos?**
 
-- [ ] Mobile
+- [x] Mobile
 - [ ] Tablet
 - [ ] Desktop
 - [ ] Outros: ____________
@@ -147,13 +212,7 @@ Cliente não quer o uso de imagens de pessoas reais. Todo o visual deve ser base
 
 ## 📌 Observações Finais
 
-<!-- Algum risco, dependência externa ou algo a ser monitorado? -->
-<!-- Também pode incluir aprendizados para o próximo projeto. -->
-
-<!-- 
-**Exemplo:**
-Cliente pediu uma versão dark mode, mas isso não foi incluído no escopo inicial. Pode ser discutido como melhoria futura. 
--->
+Cliente deseja solução em até 1 semana.
 
 ---
 
