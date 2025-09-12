@@ -63,6 +63,65 @@ A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem
   alt=" Wireframes "><br>
   <sup>Fonte: Material produzido pelos autores, 2025</sup>
 </div>
+<div align="center">
+  <sub>FIGURA 2 - Tela 1 – Cadastro</sub><br>
+  <img src="./assets/tela1.png" width="70%" alt="Tela 1 – Cadastro"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 3 - Telas 1.1 e 1.2 – Login (Cliente e Administrador)</sub><br>
+  <img src="./assets/telas1.1_1.2.png" width="100%" alt="Telas 1.1 e 1.2 – Login (Cliente e Administrador)"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 4 - Telas 2 e 2.1 – Página de entrada (foto e detalhes)</sub><br>
+  <img src="./assets/telas2_2.1.png" width="100%" alt="Telas 2 e 2.1 – Página de entrada (foto e detalhes)"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 5 - Telas 3 e 3.1 – Formulário e confirmação de envio</sub><br>
+  <img src="./assets/telas3_3.1.png" width="100%" alt="Telas 3 e 3.1 – Formulário e confirmação de envio"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 6 - Tela 4 – Página edição de perfil</sub><br>
+  <img src="./assets/telas4_4.1.png" width="100%" alt="Tela 4 – Página edição de perfil"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 7 - Telas 5, 5.1 e 5.2 – Páginas do administrador (inicial, edição e adição)</sub><br>
+  <img src="./assets/telas5_5.1_5.2.png" width="100%" alt="Telas 5, 5.1 e 5.2 – Páginas do administrador"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 8 - Telas 6 e 6.1 – Minha agenda e respostas do formulário</sub><br>
+  <img src="./assets/telas6_6.1.png" width="100%" alt="Telas 6 e 6.1 – Minha agenda e respostas do formulário"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+<div align="center">
+  <sub>FIGURA 9 - Tela 7 – Página de contato/ajuda</sub><br>
+  <img src="./assets/tela7.png" width="70%" alt="Tela 7 – Página de contato/ajuda"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 10 - Telas 8 e 9 – Meus agendamentos e agendamento</sub><br>
+  <img src="./assets/telas8_9.png" width="100%" alt="Telas 8 e 9 – Meus agendamentos e agendamento"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+<div align="center">
+  <sub>FIGURA 11 - Navbar – Barra de navegação</sub><br>
+  <img src="./assets/navbar.png" width="100%" alt="Navbar – Barra de navegação"><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
 
 [Link para o Figma para melhor visualização](https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1)
 
