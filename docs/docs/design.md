@@ -8,37 +8,37 @@ sidebar_position: 3
 
 ## 🗓 Informações Gerais
 
-- **Nome do Projeto:**
-<!-- Exemplo: Sistema de Gestão de Reservas para Biblioteca -->
+- **Nome do Projeto:** 
+Tattoo Studio — Sistema de Portfólio e Agendamento
 
 - **Responsável de Design:**
-<!-- Nome da pessoa responsável pela coordenação e entrega da parte visual do projeto -->
+Isabela Szolnoky Ferreira Cabral Souza da Conceição
 
 - **Data de Entrada no Design:**
-<!-- Exemplo: 05/04/2025 -->
+08/08/2025
 
 - **Data de Entrega Estimada para Desenvolvimento:**
-<!-- Exemplo: 19/04/2025 -->
+2 semanas
 
 - **Link para Documento de Visão de Produto:**
-<!-- Exemplo: https://github.com/empresa/docs/projeto-reservas/visao.md -->
+https://github.com/Inteli-Junior/Trainee-2025.2/blob/docs/intro-visao-produto/docs/docs/visao-produto.md
 
 ---
 
 ## ✅ Checklist de Entrada (antes de iniciar o design)
 
-- [ ] Documento de Visão de Produto recebido e validado
-- [ ] Escopo e funcionalidades compreendidos
-- [ ] Personas identificadas
-- [ ] Alinhamento com PO realizado
-- [ ] Capacidade da equipe verificada
-- [ ] Deadline estabelecido
+- [x] Documento de Visão de Produto recebido e validado
+- [x] Escopo e funcionalidades compreendidos
+- [x] Personas identificadas
+- [x] Alinhamento com PO realizado
+- [x] Capacidade da equipe verificada
+- [x] Deadline estabelecido
 
 ---
 
 ## 📤 Checklist de Saída (antes de repassar para Desenvolvimento)
 
-- [ ] Wireframes
+- [x] Wireframes
 - [ ] Protótipo final validado pelo cliente
 - [ ] Layouts organizados no Figma
 - [ ] Especificações visuais claras (cores, tamanhos, espaçamentos)
@@ -49,17 +49,143 @@ sidebar_position: 3
 
 ## 🎯 Objetivo do Design
 
-<!-- Explique brevemente o que o design precisa atingir em termos de comunicação visual, clareza de uso, tom da marca etc. -->
-
-<!-- **Exemplo:**
-Criar uma interface moderna, clara e acessível para facilitar reservas de salas em uma biblioteca universitária. A identidade visual deve transmitir profissionalismo e simplicidade, voltada para estudantes e servidores. -->
+Criar uma interface moderna, visual e intuitiva que destaque o portfólio do tatuador de forma organizada por estilos.
+O design deve transmitir profissionalismo e criatividade, refletindo a identidade artística do cliente e gerando confiança nos visitantes.
+A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem facilmente pelo portfólio e solicitem agendamentos sem complicações.
 
 ---
 
 ## 🖼 Wireframes
+---
+</div>
 
-<!-- Inserir aqui os wireframes iniciais do projeto, com links para Figma ou imagens embutidas, se possível -->
-<!-- Os wireframes devem ser validados com o cliente a fim de se determinar o fluxo da solução junto ao cliente. -->
+<div align="center">
+  <sub>FIGURA 1 - Wireframes</sub><br>
+  <img src= "./assets/wireframes.png" width="100%"
+  alt=" Wireframes "><br>
+  <sup>Fonte: Material produzido pelos autores, 2025</sup>
+</div>
+
+---
+### Cadastro
+&emsp; A tela de cadastro apresenta campos claros para nome, sobrenome, telefone, e-mail e senha, garantindo uma experiência simples e intuitiva para novos usuários. O botão “Finalizar cadastro” está destacado, enquanto o cabeçalho com logo e o rodapé com ícones de navegação mantêm a consistência visual. O design foca na clareza e no preenchimento rápido das informações necessárias.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 2</strong> – Tela de cadastro</p>
+    <img src="./assets/tela1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+  </div>
+
+---
+### Login
+&emsp; Os designs de login são padronizados para clientes e administradores. Cada tela solicita e-mail e senha, criados no cadastro, com botão “Entrar” visível e a logo no topo. Há também a opção de recuperar a senha para facilitar o acesso. O layout é limpo e consistente entre os diferentes tipos de usuário, reforçando a identidade visual da solução.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 3</strong> – Telas de login</p>
+    <img src="./assets/telas1.1_1.2.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Entrada
+&emsp; As telas de entrada apresentam um portfólio organizado em grade, exibindo imagens de trabalhos/tatuagens. Ao clicar em uma imagem, abre-se uma visualização detalhada com nome do artista, descrição e um botão de “Tenho interesse”. O cabeçalho com a logo e a opção de abrir a barra de navegação lateral garantem acesso rápido às outras áreas do sistema, enquanto o rodapé mantém a padronização do layout.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 4</strong> – Telas de Página de entrada (foto e detalhes)</p>
+    <img src="./assets/telas2_2.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Formulário e confirmação de envio
+&emsp; O formulário de agendamento é estruturado para solicitar nome, e-mail, telefone, descrição da ideia, tamanho e estilo, além de permitir o envio de uma imagem de referência. O usuário escolhe data e horário em um calendário interativo e confirma o envio. Após o envio bem-sucedido, a tela de confirmação exibe uma mensagem clara de sucesso e um botão para voltar ou continuar, transmitindo feedback imediato e segurança ao usuário.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 5</strong> – Telas de Formulário e confirmação de envio</p>
+    <img src="./assets/telas3_3.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Recuperação de senha
+&emsp; A recuperação de senha é dividida em duas etapas:
+
+- Tela 4: o usuário insere o e-mail para receber um código de recuperação e informa o código.
+
+- Tela 4.1: o usuário redefine a senha informando a nova credencial.
+
+  O processo é direto e visualmente alinhado às outras telas, com botões destacados e cabeçalho padronizado.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 6</strong> – Telas de Página de edição de perfil</p>
+    <img src="./assets/telas4_4.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Páginas do administrador (inicial, edição e adição)
+&emsp; As telas do administrador mantêm um portfólio em grade (tela 5) e oferecem ferramentas para edição (tela 5.1) e adição de novas imagens (tela 5.2). A edição permite selecionar campos específicos para atualização de informações, enquanto a adição possibilita o upload de imagens com visualização prévia. O layout segue o padrão do sistema, garantindo facilidade de navegação e consistência visual.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 7</strong> – Telas do administrador (inicial, edição e adição)</p>
+    <img src="./assets/telas5_5.1_5.2.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Agenda e respostas do formulário
+&emsp; A tela “Minha agenda” apresenta horários livres, pendentes e aceitos, facilitando o gerenciamento. A tela de respostas detalhadas (6.1) exibe informações completas do agendamento, incluindo data, horário, cliente, descrição e dados de contato, além de botões para aceitar ou recusar. A estrutura garante acesso rápido às informações relevantes e ações administrativas claras.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 8</strong> – Telas de agenda e respostas do formulário</p>
+    <img src="./assets/telas6_6.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### FAQ
+&emsp; A seção FAQ oferece uma barra de pesquisa para dúvidas rápidas e uma lista de perguntas frequentes organizadas em categorias. O design é intuitivo e prioriza a facilidade de encontrar respostas, com cada item expansível para exibir detalhes.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 9</strong> – Tela de FAQ</p>
+    <img src="./assets/tela7.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Agendamentos
+&emsp; As telas de agendamentos exibem os compromissos já marcados e os detalhes individuais de cada agendamento. O usuário pode realizar um novo agendamento ou cancelar um existente. As informações do agendamento são apresentadas de forma clara, incluindo local, data, horário e artista responsável, promovendo confiança e organização.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 10</strong> – Telas de agendamentos</p>
+    <img src="./assets/telas8_9.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Barra de navegação
+&emsp; A barra de navegação lateral exibe categorias e opções principais (meus agendamentos, categorias, tipos de arte, edição, adição), acessíveis a partir do menu hambúrguer no cabeçalho. O design garante usabilidade simplificada, permitindo ao usuário alternar entre seções rapidamente sem comprometer a experiência visual.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 11</strong> – Telas de navegação</p>
+    <img src="./assets/navbar.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+
+[Link para o Figma para melhor visualização](https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1)
+
+
 
 **Link para protótipo (Figma, Excalidraw, etc):**
 <!-- Exemplo: https://figma.com/projeto-reservas -->
@@ -71,17 +197,16 @@ Criar uma interface moderna, clara e acessível para facilitar reservas de salas
 ### 🅰️ Tipografia
 
 - **Fonte Primária:** 
-<!-- Exemplo: Inter -->
+Inter
 
 <!-- - **Fonte Secundária (se houver):** -->
 <!-- Exemplo: Roboto Mono -->
 
 - **Tamanhos padrão:**
-<!-- Exemplo:
-  - Títulos: 24px / Semibold
+  - Títulos: 32px / Bold
+  - Subtitulo: 24px / Regular
   - Texto: 16px / Regular
-  - Notas secundárias: 12px / Light
--->
+  - Notas secundárias: 14px / Light
 
 ---
 
@@ -135,7 +260,7 @@ Cliente não quer o uso de imagens de pessoas reais. Todo o visual deve ser base
 
 **O design contempla os seguintes formatos?**
 
-- [ ] Mobile
+- [x] Mobile
 - [ ] Tablet
 - [ ] Desktop
 - [ ] Outros: ____________
@@ -147,13 +272,7 @@ Cliente não quer o uso de imagens de pessoas reais. Todo o visual deve ser base
 
 ## 📌 Observações Finais
 
-<!-- Algum risco, dependência externa ou algo a ser monitorado? -->
-<!-- Também pode incluir aprendizados para o próximo projeto. -->
-
-<!-- 
-**Exemplo:**
-Cliente pediu uma versão dark mode, mas isso não foi incluído no escopo inicial. Pode ser discutido como melhoria futura. 
--->
+Cliente deseja solução em até 1 semana.
 
 ---
 
