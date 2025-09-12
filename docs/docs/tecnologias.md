@@ -47,7 +47,7 @@ https://github.com/Inteli-Junior/Trainee-2025.2/blob/main/docs/docs/visao-produt
 
 - Linguagem: C#
 - Framework: .NET
-- ORM (se aplicável): Entity Framework
+- ORM: Entity Framework
 - Estratégia de autenticação/autorização: JWT (JSON Web Tokens) integrado ao .NET Identity
 - Justificativa da escolha: A stack C# + .NET oferece alta performance, maturidade e escalabilidade para aplicações corporativas, além de um ecossistema robusto para integrações. O Entity Framework simplifica o acesso e mapeamento de dados, permitindo produtividade sem perder flexibilidade. O uso de JWT garante autenticação e autorização seguras em APIs distribuídas e aplicações modernas.
 
