@@ -56,6 +56,8 @@ A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem
 ---
 
 ## 🖼 Wireframes
+---
+</div>
 
 <div align="center">
   <sub>FIGURA 1 - Wireframes</sub><br>
@@ -63,64 +65,122 @@ A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem
   alt=" Wireframes "><br>
   <sup>Fonte: Material produzido pelos autores, 2025</sup>
 </div>
-<div align="center">
-  <sub>FIGURA 2 - Tela 1 – Cadastro</sub><br>
-  <img src="./assets/tela1.png" width="70%" alt="Tela 1 – Cadastro"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
 
-<div align="center">
-  <sub>FIGURA 3 - Telas 1.1 e 1.2 – Login (Cliente e Administrador)</sub><br>
-  <img src="./assets/telas1.1_1.2.png" width="100%" alt="Telas 1.1 e 1.2 – Login (Cliente e Administrador)"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+---
+### Cadastro
+&emsp; A tela de cadastro apresenta campos claros para nome, sobrenome, telefone, e-mail e senha, garantindo uma experiência simples e intuitiva para novos usuários. O botão “Finalizar cadastro” está destacado, enquanto o cabeçalho com logo e o rodapé com ícones de navegação mantêm a consistência visual. O design foca na clareza e no preenchimento rápido das informações necessárias.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 2</strong> – Tela de cadastro</p>
+    <img src="./assets/tela1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+  </div>
 
-<div align="center">
-  <sub>FIGURA 4 - Telas 2 e 2.1 – Página de entrada (foto e detalhes)</sub><br>
-  <img src="./assets/telas2_2.1.png" width="100%" alt="Telas 2 e 2.1 – Página de entrada (foto e detalhes)"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+---
+### Login
+&emsp; Os designs de login são padronizados para clientes e administradores. Cada tela solicita e-mail e senha, criados no cadastro, com botão “Entrar” visível e a logo no topo. Há também a opção de recuperar a senha para facilitar o acesso. O layout é limpo e consistente entre os diferentes tipos de usuário, reforçando a identidade visual da solução.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 3</strong> – Telas de login</p>
+    <img src="./assets/telas1.1_1.2.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
 
-<div align="center">
-  <sub>FIGURA 5 - Telas 3 e 3.1 – Formulário e confirmação de envio</sub><br>
-  <img src="./assets/telas3_3.1.png" width="100%" alt="Telas 3 e 3.1 – Formulário e confirmação de envio"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+---
+### Entrada
+&emsp; As telas de entrada apresentam um portfólio organizado em grade, exibindo imagens de trabalhos/tatuagens. Ao clicar em uma imagem, abre-se uma visualização detalhada com nome do artista, descrição e um botão de “Tenho interesse”. O cabeçalho com a logo e a opção de abrir a barra de navegação lateral garantem acesso rápido às outras áreas do sistema, enquanto o rodapé mantém a padronização do layout.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 4</strong> – Telas de Página de entrada (foto e detalhes)</p>
+    <img src="./assets/telas2_2.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
 
-<div align="center">
-  <sub>FIGURA 6 - Tela 4 – Página edição de perfil</sub><br>
-  <img src="./assets/telas4_4.1.png" width="100%" alt="Tela 4 – Página edição de perfil"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+---
+### Formulário e confirmação de envio
+&emsp; O formulário de agendamento é estruturado para solicitar nome, e-mail, telefone, descrição da ideia, tamanho e estilo, além de permitir o envio de uma imagem de referência. O usuário escolhe data e horário em um calendário interativo e confirma o envio. Após o envio bem-sucedido, a tela de confirmação exibe uma mensagem clara de sucesso e um botão para voltar ou continuar, transmitindo feedback imediato e segurança ao usuário.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 5</strong> – Telas de Formulário e confirmação de envio</p>
+    <img src="./assets/telas3_3.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
 
-<div align="center">
-  <sub>FIGURA 7 - Telas 5, 5.1 e 5.2 – Páginas do administrador (inicial, edição e adição)</sub><br>
-  <img src="./assets/telas5_5.1_5.2.png" width="100%" alt="Telas 5, 5.1 e 5.2 – Páginas do administrador"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+---
+### Recuperação de senha
+&emsp; A recuperação de senha é dividida em duas etapas:
 
-<div align="center">
-  <sub>FIGURA 8 - Telas 6 e 6.1 – Minha agenda e respostas do formulário</sub><br>
-  <img src="./assets/telas6_6.1.png" width="100%" alt="Telas 6 e 6.1 – Minha agenda e respostas do formulário"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
-<div align="center">
-  <sub>FIGURA 9 - Tela 7 – Página de contato/ajuda</sub><br>
-  <img src="./assets/tela7.png" width="70%" alt="Tela 7 – Página de contato/ajuda"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+- Tela 4: o usuário insere o e-mail para receber um código de recuperação e informa o código.
 
-<div align="center">
-  <sub>FIGURA 10 - Telas 8 e 9 – Meus agendamentos e agendamento</sub><br>
-  <img src="./assets/telas8_9.png" width="100%" alt="Telas 8 e 9 – Meus agendamentos e agendamento"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+- Tela 4.1: o usuário redefine a senha informando a nova credencial.
 
-<div align="center">
-  <sub>FIGURA 11 - Navbar – Barra de navegação</sub><br>
-  <img src="./assets/navbar.png" width="100%" alt="Navbar – Barra de navegação"><br>
-  <sup>Fonte: Material produzido pelos autores, 2025</sup>
-</div>
+  O processo é direto e visualmente alinhado às outras telas, com botões destacados e cabeçalho padronizado.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 6</strong> – Telas de Página de edição de perfil</p>
+    <img src="./assets/telas4_4.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Páginas do administrador (inicial, edição e adição)
+&emsp; As telas do administrador mantêm um portfólio em grade (tela 5) e oferecem ferramentas para edição (tela 5.1) e adição de novas imagens (tela 5.2). A edição permite selecionar campos específicos para atualização de informações, enquanto a adição possibilita o upload de imagens com visualização prévia. O layout segue o padrão do sistema, garantindo facilidade de navegação e consistência visual.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 7</strong> – Telas do administrador (inicial, edição e adição)</p>
+    <img src="./assets/telas5_5.1_5.2.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Agenda e respostas do formulário
+&emsp; A tela “Minha agenda” apresenta horários livres, pendentes e aceitos, facilitando o gerenciamento. A tela de respostas detalhadas (6.1) exibe informações completas do agendamento, incluindo data, horário, cliente, descrição e dados de contato, além de botões para aceitar ou recusar. A estrutura garante acesso rápido às informações relevantes e ações administrativas claras.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 8</strong> – Telas de agenda e respostas do formulário</p>
+    <img src="./assets/telas6_6.1.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### FAQ
+&emsp; A seção FAQ oferece uma barra de pesquisa para dúvidas rápidas e uma lista de perguntas frequentes organizadas em categorias. O design é intuitivo e prioriza a facilidade de encontrar respostas, com cada item expansível para exibir detalhes.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 9</strong> – Tela de FAQ</p>
+    <img src="./assets/tela7.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Agendamentos
+&emsp; As telas de agendamentos exibem os compromissos já marcados e os detalhes individuais de cada agendamento. O usuário pode realizar um novo agendamento ou cancelar um existente. As informações do agendamento são apresentadas de forma clara, incluindo local, data, horário e artista responsável, promovendo confiança e organização.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 10</strong> – Telas de agendamentos</p>
+    <img src="./assets/telas8_9.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
+
+---
+### Barra de navegação
+&emsp; A barra de navegação lateral exibe categorias e opções principais (meus agendamentos, categorias, tipos de arte, edição, adição), acessíveis a partir do menu hambúrguer no cabeçalho. O design garante usabilidade simplificada, permitindo ao usuário alternar entre seções rapidamente sem comprometer a experiência visual.
+<div align="center" style="margin-bottom: 1em;">
+    <p style="margin-bottom: 0.3em; font-style: italic;"><strong>Figura 11</strong> – Telas de navegação</p>
+    <img src="./assets/navbar.png" style="max-width: 100%; height: 450; margin: 0.5em 0;">
+    <p style="margin-top: 0.3em; font-size: 0.9em; font-style: italic;">
+        Fonte: Material produzido pelos autores, 2025.
+    </p>
+    </div>
 
 
 [Link para o Figma para melhor visualização](https://www.figma.com/design/egWyWhyEl9h5k3m8SWfhL7/Trainee--IJ?node-id=1-2&t=lHBRQY3XGq65AsTg-1)
