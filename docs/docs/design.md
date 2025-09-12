@@ -63,6 +63,9 @@ A experiência precisa ser fluida e responsiva, permitindo que clientes naveguem
   alt=" Wireframes "><br>
   <sup>Fonte: Material produzido pelos autores, 2025</sup>
 </div>
+
+Acima apresentamos o painel geral de telas utilizadas pelo cliente, desde o cadastro até a finalização do atendimento com a finalização do formulário de agendamento.
+
 <div align="center">
   <sub>FIGURA 2 - Tela 1 – Cadastro</sub><br>
   <img src="./assets/tela1.png" width="70%" alt="Tela 1 – Cadastro"><br>
